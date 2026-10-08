@@ -1,0 +1,462 @@
+2026-08-13 09:32:24,776 | INFO | __main__ | Iniciando processamento
+2026-08-13 09:32:24,777 | INFO | __main__ | Gerando CHECK
+2026-08-13 09:32:24,779 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: 469741F8A1JUL2026.csv
+2026-08-13 09:32:24,819 | WARNING | src.ingestion.prefeitura_reader | Falha ao ler arquivo usando encoding 'utf-8'
+2026-08-13 09:32:24,891 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado com sucesso. Encoding: latin1. Registros: 2,224
+2026-08-13 09:32:24,923 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n - 07.26.XLSX
+2026-08-13 09:32:25,965 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado com sucesso. Registros: 2,699
+2026-08-13 09:32:29,051 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-13 09:32:29,053 | INFO | __main__ | Gerando REPORT
+2026-08-13 09:32:29,054 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: 469741F8A1JUL2026.csv
+2026-08-13 09:32:29,067 | WARNING | src.ingestion.prefeitura_reader | Falha ao ler arquivo usando encoding 'utf-8'
+2026-08-13 09:32:29,128 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado com sucesso. Encoding: latin1. Registros: 2,224
+2026-08-13 09:32:29,162 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008 - ref a mes 07.26.XLSX
+2026-08-13 09:32:29,960 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-08-13 09:32:31,650 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-13 09:32:31,653 | INFO | __main__ | Processamento concluído
+2026-08-18 15:44:49,396 | INFO | __main__ | Iniciando processamento
+2026-08-18 15:44:49,397 | INFO | __main__ | Gerando CHECK
+2026-08-18 15:44:49,398 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: 469741F8A1JUL2026.csv
+2026-08-18 15:44:49,420 | WARNING | src.ingestion.prefeitura_reader | Falha ao ler arquivo usando encoding 'utf-8'
+2026-08-18 15:44:49,480 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado com sucesso. Encoding: latin1. Registros: 2,224
+2026-08-18 15:44:49,495 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n - 07.26.XLSX
+2026-08-18 15:44:50,417 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado com sucesso. Registros: 2,699
+2026-08-18 15:44:52,454 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-18 15:44:52,455 | INFO | __main__ | Gerando REPORT
+2026-08-18 15:44:52,455 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: 469741F8A1JUL2026.csv
+2026-08-18 15:44:52,460 | WARNING | src.ingestion.prefeitura_reader | Falha ao ler arquivo usando encoding 'utf-8'
+2026-08-18 15:44:52,494 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado com sucesso. Encoding: latin1. Registros: 2,224
+2026-08-18 15:44:52,504 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008 - ref a mes 07.26.XLSX
+2026-08-18 15:44:52,835 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-08-18 15:44:53,677 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-18 15:44:53,677 | INFO | __main__ | Processamento concluído
+2026-08-18 15:49:09,170 | INFO | __main__ | Iniciando processamento
+2026-08-18 15:49:09,170 | INFO | __main__ | Gerando CHECK
+2026-08-18 15:49:09,171 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: 469741F8A1JUL2026.csv
+2026-08-18 15:49:09,175 | WARNING | src.ingestion.prefeitura_reader | Falha ao ler arquivo usando encoding 'utf-8'
+2026-08-18 15:49:09,219 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado com sucesso. Encoding: latin1. Registros: 2,224
+2026-08-18 15:49:09,231 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n - 07.26.XLSX
+2026-08-18 15:49:09,792 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado com sucesso. Registros: 2,699
+2026-08-18 15:49:11,721 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-18 15:49:11,722 | INFO | __main__ | Gerando REPORT
+2026-08-18 15:49:11,723 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: 469741F8A1JUL2026.csv
+2026-08-18 15:49:11,728 | WARNING | src.ingestion.prefeitura_reader | Falha ao ler arquivo usando encoding 'utf-8'
+2026-08-18 15:49:11,764 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado com sucesso. Encoding: latin1. Registros: 2,224
+2026-08-18 15:49:11,774 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008 - ref a mes 07.26.XLSX
+2026-08-18 15:49:12,085 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-08-18 15:49:12,910 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-18 15:49:12,910 | INFO | __main__ | Processamento concluído
+2026-08-18 15:50:14,133 | INFO | __main__ | Iniciando processamento
+2026-08-18 15:50:14,134 | INFO | __main__ | Gerando CHECK
+2026-08-18 15:50:14,134 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: 469741F8A1JUL2026.csv
+2026-08-18 15:50:14,139 | WARNING | src.ingestion.prefeitura_reader | Falha ao ler arquivo usando encoding 'utf-8'
+2026-08-18 15:50:14,182 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado com sucesso. Encoding: latin1. Registros: 2,224
+2026-08-18 15:50:14,196 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n - 07.26.XLSX
+2026-08-18 15:50:14,812 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado com sucesso. Registros: 2,699
+2026-08-18 15:50:17,171 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-18 15:50:17,172 | INFO | __main__ | Gerando REPORT
+2026-08-18 15:50:17,173 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: 469741F8A1JUL2026.csv
+2026-08-18 15:50:17,179 | WARNING | src.ingestion.prefeitura_reader | Falha ao ler arquivo usando encoding 'utf-8'
+2026-08-18 15:50:17,225 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado com sucesso. Encoding: latin1. Registros: 2,224
+2026-08-18 15:50:17,240 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008 - ref a mes 07.26.XLSX
+2026-08-18 15:50:17,718 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-08-18 15:50:18,785 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-18 15:50:18,786 | INFO | __main__ | Processamento concluído
+2026-08-18 15:57:56,332 | INFO | __main__ | Iniciando processamento
+2026-08-18 15:57:56,333 | INFO | __main__ | Gerando CHECK
+2026-08-18 15:57:56,335 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: 469741F8A1JUL2026.csv
+2026-08-18 15:57:56,341 | WARNING | src.ingestion.prefeitura_reader | Falha ao ler arquivo usando encoding 'utf-8'
+2026-08-18 15:57:56,412 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado com sucesso. Encoding: latin1. Registros: 2,224
+2026-08-18 15:57:56,437 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n - 07.26.XLSX
+2026-08-18 15:57:57,453 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado com sucesso. Registros: 2,699
+2026-08-18 15:58:00,260 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-18 15:58:00,261 | INFO | __main__ | Gerando REPORT
+2026-08-18 15:58:00,262 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: 469741F8A1JUL2026.csv
+2026-08-18 15:58:00,269 | WARNING | src.ingestion.prefeitura_reader | Falha ao ler arquivo usando encoding 'utf-8'
+2026-08-18 15:58:00,326 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado com sucesso. Encoding: latin1. Registros: 2,224
+2026-08-18 15:58:00,352 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008 - ref a mes 07.26.XLSX
+2026-08-18 15:58:00,924 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-08-18 15:58:02,128 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-18 15:58:02,128 | INFO | __main__ | Processamento concluído
+2026-08-20 14:50:51,252 | INFO | __main__ | Iniciando processamento
+2026-08-20 14:50:51,254 | INFO | __main__ | Gerando CHECK
+2026-08-20 14:50:51,255 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: 469741F8A1JUL2026.csv
+2026-08-20 14:50:51,300 | WARNING | src.ingestion.prefeitura_reader | Falha ao ler arquivo usando encoding 'utf-8'
+2026-08-20 14:50:51,448 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado com sucesso. Encoding: latin1. Registros: 2,224
+2026-08-20 14:50:51,473 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n - 07.26.XLSX
+2026-08-20 14:50:53,146 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado com sucesso. Registros: 2,699
+2026-08-20 14:50:57,587 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-20 14:50:57,588 | INFO | __main__ | Gerando REPORT
+2026-08-20 14:50:57,589 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: 469741F8A1JUL2026.csv
+2026-08-20 14:50:57,604 | WARNING | src.ingestion.prefeitura_reader | Falha ao ler arquivo usando encoding 'utf-8'
+2026-08-20 14:50:57,670 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado com sucesso. Encoding: latin1. Registros: 2,224
+2026-08-20 14:50:57,696 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008 - ref a mes 07.26.XLSX
+2026-08-20 14:50:58,431 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-08-20 14:51:00,290 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-20 14:51:00,293 | INFO | __main__ | Processamento concluído
+2026-08-25 10:06:18,086 | INFO | __main__ | Iniciando processamento
+2026-08-25 10:06:18,087 | INFO | __main__ | Gerando CHECK
+2026-08-25 10:06:18,089 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: 469741F8A1JUL2026.csv
+2026-08-25 10:06:18,111 | WARNING | src.ingestion.prefeitura_reader | Falha ao ler arquivo usando encoding 'utf-8'
+2026-08-25 10:06:18,159 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado com sucesso. Encoding: latin1. Registros: 2,224
+2026-08-25 10:06:18,194 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n - 07.26.XLSX
+2026-08-25 10:06:18,786 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado com sucesso. Registros: 2,699
+2026-08-25 10:06:20,836 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-25 10:06:20,836 | INFO | __main__ | Gerando REPORT
+2026-08-25 10:06:20,837 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: 469741F8A1JUL2026.csv
+2026-08-25 10:06:20,842 | WARNING | src.ingestion.prefeitura_reader | Falha ao ler arquivo usando encoding 'utf-8'
+2026-08-25 10:06:20,875 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado com sucesso. Encoding: latin1. Registros: 2,224
+2026-08-25 10:06:20,884 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008 - ref a mes 07.26.XLSX
+2026-08-25 10:06:21,199 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-08-25 10:06:21,923 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-25 10:06:21,923 | INFO | __main__ | Processamento concluído
+2026-08-25 10:29:00,776 | INFO | __main__ | Iniciando processamento
+2026-08-25 10:29:00,777 | INFO | __main__ | Gerando CHECK
+2026-08-25 10:29:00,777 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-25 10:29:00,834 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-25 10:29:00,846 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-08-25 10:29:01,508 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-08-25 10:29:03,427 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-25 10:29:03,428 | INFO | __main__ | Gerando REPORT
+2026-08-25 10:29:03,428 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-25 10:29:03,481 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-25 10:29:03,511 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-08-25 10:29:03,840 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-08-25 10:29:04,650 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-25 10:29:04,650 | INFO | __main__ | Processamento concluído
+2026-08-25 10:39:32,796 | INFO | __main__ | Iniciando processamento
+2026-08-25 10:39:32,797 | INFO | __main__ | Gerando CHECK
+2026-08-25 10:39:32,797 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-25 10:39:32,851 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-25 10:39:32,864 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-08-25 10:39:33,431 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-08-25 10:39:35,278 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-25 10:39:35,279 | INFO | __main__ | Gerando REPORT
+2026-08-25 10:39:35,279 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-25 10:39:35,319 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-25 10:39:35,327 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-08-25 10:39:35,637 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-08-25 10:39:36,425 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-25 10:39:36,426 | INFO | __main__ | Processamento concluído
+2026-08-25 10:43:10,174 | INFO | __main__ | Iniciando processamento
+2026-08-25 10:43:10,175 | INFO | __main__ | Gerando CHECK
+2026-08-25 10:43:10,175 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-25 10:43:10,226 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-25 10:43:10,239 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-08-25 10:43:10,815 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-08-25 10:43:12,688 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-25 10:43:12,689 | INFO | __main__ | Gerando REPORT
+2026-08-25 10:43:12,689 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-25 10:43:12,731 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-25 10:43:12,740 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-08-25 10:43:13,058 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-08-25 10:43:13,862 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-25 10:43:13,862 | INFO | __main__ | Processamento concluído
+2026-08-25 10:46:49,768 | INFO | __main__ | Iniciando processamento
+2026-08-25 10:46:49,769 | INFO | __main__ | Gerando CHECK
+2026-08-25 10:46:49,769 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-25 10:46:49,820 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-25 10:46:49,834 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-08-25 10:46:50,421 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-08-25 10:46:52,280 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-25 10:46:52,281 | INFO | __main__ | Gerando REPORT
+2026-08-25 10:46:52,281 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-25 10:46:52,323 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-25 10:46:52,332 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-08-25 10:46:52,662 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-08-25 10:46:53,453 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-25 10:46:53,453 | INFO | __main__ | Processamento concluído
+2026-08-25 10:54:37,678 | INFO | __main__ | Iniciando processamento
+2026-08-25 10:54:37,678 | INFO | __main__ | Gerando CHECK
+2026-08-25 10:54:37,678 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-25 10:54:37,727 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-25 10:54:37,740 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-08-25 10:54:38,322 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-08-25 10:54:40,253 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-25 10:54:40,253 | INFO | __main__ | Gerando REPORT
+2026-08-25 10:54:40,254 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-25 10:54:40,296 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-25 10:54:40,309 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-08-25 10:54:43,079 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 23,223
+2026-08-25 10:54:48,817 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-25 10:54:48,818 | INFO | __main__ | Processamento concluído
+2026-08-25 11:03:29,778 | INFO | __main__ | Iniciando processamento
+2026-08-25 11:03:29,779 | INFO | __main__ | Gerando CHECK
+2026-08-25 11:03:29,779 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-25 11:03:29,852 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-25 11:03:29,871 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-08-25 11:03:30,462 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-08-25 11:03:32,310 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-25 11:03:32,310 | INFO | __main__ | Gerando REPORT
+2026-08-25 11:03:32,311 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-25 11:03:32,353 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-25 11:03:32,361 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-08-25 11:03:34,952 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 23,223
+2026-08-25 11:03:40,901 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-25 11:03:40,903 | INFO | __main__ | Processamento concluído
+2026-08-31 10:03:15,833 | INFO | __main__ | Iniciando processamento
+2026-08-31 10:03:15,834 | INFO | __main__ | Gerando CHECK
+2026-08-31 10:03:15,835 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-31 10:03:15,890 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-31 10:03:15,937 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-08-31 10:03:16,509 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-08-31 10:03:18,564 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-31 10:03:18,565 | INFO | __main__ | Gerando REPORT
+2026-08-31 10:03:18,565 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-31 10:03:18,618 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-31 10:03:18,633 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-08-31 10:03:19,051 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-08-31 10:03:19,861 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-31 10:03:19,865 | INFO | __main__ | Processamento concluído
+2026-08-31 10:03:28,673 | INFO | __main__ | Iniciando processamento
+2026-08-31 10:03:28,674 | INFO | __main__ | Gerando CHECK
+2026-08-31 10:03:28,674 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-31 10:03:28,736 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-31 10:03:28,752 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-08-31 10:03:29,576 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-08-31 10:03:31,807 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-31 10:03:31,808 | INFO | __main__ | Gerando REPORT
+2026-08-31 10:03:31,808 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-31 10:03:31,858 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-31 10:03:31,868 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-08-31 10:03:32,329 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-08-31 10:03:33,190 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-31 10:03:33,191 | INFO | __main__ | Processamento concluído
+2026-08-31 10:21:48,603 | INFO | __main__ | Iniciando processamento
+2026-08-31 10:21:48,604 | INFO | __main__ | Gerando CHECK
+2026-08-31 10:21:48,604 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-31 10:21:48,655 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-31 10:21:48,692 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-08-31 10:21:49,294 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-08-31 10:21:51,617 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-31 10:21:51,617 | INFO | __main__ | Gerando REPORT
+2026-08-31 10:21:51,618 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-31 10:21:51,670 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-31 10:21:51,684 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-08-31 10:21:52,137 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-08-31 10:21:53,031 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-31 10:21:53,032 | INFO | __main__ | Processamento concluído
+2026-08-31 10:44:27,635 | INFO | __main__ | Iniciando processamento
+2026-08-31 10:44:27,635 | INFO | __main__ | Gerando CHECK
+2026-08-31 10:44:27,636 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-31 10:44:27,708 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-31 10:44:27,721 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-08-31 10:44:28,412 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-08-31 10:44:30,378 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-31 10:44:30,379 | INFO | __main__ | Gerando REPORT
+2026-08-31 10:44:30,379 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-31 10:44:30,422 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-31 10:44:30,431 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-08-31 10:44:30,798 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-08-31 10:44:31,527 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-31 10:44:31,528 | INFO | __main__ | Processamento concluído
+2026-08-31 14:14:57,413 | INFO | __main__ | Iniciando processamento
+2026-08-31 14:14:57,414 | INFO | __main__ | Gerando CHECK
+2026-08-31 14:14:57,415 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-31 14:14:57,519 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-31 14:14:57,560 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-08-31 14:14:58,539 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-08-31 14:15:03,520 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-08-31 14:15:03,521 | INFO | __main__ | Gerando REPORT
+2026-08-31 14:15:03,521 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-08-31 14:15:03,578 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-08-31 14:15:03,593 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-08-31 14:15:04,208 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-08-31 14:15:05,548 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-08-31 14:15:05,548 | INFO | __main__ | Processamento concluído
+2026-09-01 08:57:22,957 | INFO | __main__ | Iniciando processamento
+2026-09-01 08:57:22,958 | INFO | __main__ | Gerando CHECK
+2026-09-01 08:57:22,959 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-01 08:57:23,015 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-09-01 08:57:23,058 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-09-01 08:57:23,784 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-09-01 08:57:25,969 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-09-01 08:57:25,970 | INFO | __main__ | Gerando REPORT
+2026-09-01 08:57:25,970 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-01 08:57:26,013 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-09-01 08:57:26,028 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-09-01 08:57:26,499 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-09-01 08:57:27,322 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-09-01 08:57:27,323 | INFO | __main__ | Processamento concluído
+2026-09-01 08:57:30,538 | INFO | __main__ | Iniciando processamento
+2026-09-01 08:57:30,539 | INFO | __main__ | Gerando CHECK
+2026-09-01 08:57:30,539 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-01 08:57:30,595 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-09-01 08:57:30,607 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-09-01 08:57:31,256 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-09-01 08:57:33,977 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-09-01 08:57:33,978 | INFO | __main__ | Gerando REPORT
+2026-09-01 08:57:33,979 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-01 08:57:34,018 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-09-01 08:57:34,028 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-09-01 08:57:34,486 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-09-01 08:57:35,376 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-09-01 08:57:35,376 | INFO | __main__ | Processamento concluído
+2026-09-01 09:43:17,781 | INFO | __main__ | Iniciando processamento
+2026-09-01 09:43:17,781 | INFO | __main__ | Gerando CHECK
+2026-09-01 09:43:17,781 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-01 09:43:17,864 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-09-01 09:43:17,877 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-09-01 09:43:18,499 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-09-01 09:43:20,473 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-09-01 09:43:20,474 | INFO | __main__ | Gerando REPORT
+2026-09-01 09:43:20,474 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-01 09:43:20,515 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-09-01 09:43:20,526 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-09-01 09:43:20,852 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-09-01 09:43:21,683 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-09-01 09:43:21,683 | INFO | __main__ | Processamento concluído
+2026-09-01 09:53:16,233 | INFO | __main__ | Iniciando processamento
+2026-09-01 09:53:16,234 | INFO | __main__ | Gerando CHECK
+2026-09-01 09:53:16,234 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-01 09:53:16,294 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-09-01 09:53:16,307 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-09-01 09:53:16,899 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-09-01 09:53:18,956 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-09-01 09:53:18,957 | INFO | __main__ | Gerando REPORT
+2026-09-01 09:53:18,957 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-01 09:53:19,029 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-09-01 09:53:19,038 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-09-01 09:53:19,399 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-09-01 09:53:20,526 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-09-01 09:53:20,526 | INFO | __main__ | Processamento concluído
+2026-09-03 14:32:01,255 | INFO | __main__ | Iniciando processamento
+2026-09-03 14:32:01,257 | INFO | __main__ | Gerando CHECK
+2026-09-03 14:32:01,258 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-03 14:32:01,394 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-09-03 14:32:01,491 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-09-03 14:32:03,009 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-09-03 14:32:07,534 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-09-03 14:32:07,535 | INFO | __main__ | Gerando REPORT
+2026-09-03 14:32:07,535 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-03 14:32:07,602 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-09-03 14:32:07,617 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-09-03 14:32:11,365 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 17,055
+2026-09-03 14:32:20,019 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-09-03 14:32:20,020 | INFO | __main__ | Processamento concluído
+2026-09-10 10:42:06,305 | INFO | __main__ | Iniciando processamento
+2026-09-10 10:42:06,307 | INFO | __main__ | Gerando CHECK
+2026-09-10 10:42:06,307 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-10 10:42:06,405 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,233
+2026-09-10 10:42:06,437 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-09-10 10:42:07,985 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,668
+2026-09-10 10:42:12,299 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-09-10 10:42:12,300 | INFO | __main__ | Gerando REPORT
+2026-09-10 10:42:12,301 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-10 10:42:12,399 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,233
+2026-09-10 10:42:12,418 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-09-10 10:42:13,186 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,557
+2026-09-10 10:42:14,823 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-09-10 10:42:14,824 | INFO | __main__ | Processamento concluído
+2026-09-10 14:43:49,036 | INFO | __main__ | Iniciando processamento
+2026-09-10 14:43:49,045 | INFO | __main__ | Gerando CHECK
+2026-09-10 14:43:49,046 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-10 14:43:49,445 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,233
+2026-09-10 14:43:49,649 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-09-10 14:43:55,542 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,688
+2026-09-10 14:44:10,380 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-09-10 14:44:10,383 | INFO | __main__ | Gerando REPORT
+2026-09-10 14:44:10,383 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-10 14:44:10,616 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,233
+2026-09-10 14:44:10,663 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-09-10 14:44:12,952 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,557
+2026-09-10 14:44:18,384 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-09-10 14:44:18,387 | INFO | __main__ | Processamento concluído
+2026-09-17 09:15:28,357 | INFO | __main__ | Iniciando processamento
+2026-09-17 09:15:28,358 | INFO | __main__ | Gerando CHECK
+2026-09-17 09:15:28,358 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-17 09:15:28,406 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 633
+2026-09-17 09:15:28,421 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-09-17 09:15:28,914 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 903
+2026-09-17 09:15:29,676 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-09-17 09:15:29,676 | INFO | __main__ | Gerando REPORT
+2026-09-17 09:15:29,676 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-17 09:15:29,699 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 633
+2026-09-17 09:15:29,704 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-09-17 09:15:29,863 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 885
+2026-09-17 09:15:30,378 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-09-17 09:15:30,378 | INFO | __main__ | Processamento concluído
+2026-09-17 09:28:24,224 | INFO | __main__ | Iniciando processamento
+2026-09-17 09:28:24,225 | INFO | __main__ | Gerando CHECK
+2026-09-17 09:28:24,225 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: 469741F8A1JUL2026.csv
+2026-09-17 09:28:24,286 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-09-17 09:28:24,296 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n - 07.26.XLSX
+2026-09-17 09:28:24,884 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-09-17 09:28:26,769 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-09-17 09:28:26,770 | INFO | __main__ | Gerando REPORT
+2026-09-17 09:28:26,770 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: 469741F8A1JUL2026.csv
+2026-09-17 09:28:26,806 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,224
+2026-09-17 09:28:26,815 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008 - ref a mes 07.26.XLSX
+2026-09-17 09:28:27,119 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-09-17 09:28:27,959 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-09-17 09:28:27,960 | INFO | __main__ | Processamento concluído
+2026-09-17 09:34:00,076 | INFO | __main__ | Iniciando processamento
+2026-09-17 09:34:00,077 | INFO | __main__ | Gerando CHECK
+2026-09-17 09:34:00,077 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-17 09:34:00,118 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 633
+2026-09-17 09:34:00,128 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-09-17 09:34:00,586 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 903
+2026-09-17 09:34:01,378 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-09-17 09:34:01,379 | INFO | __main__ | Gerando REPORT
+2026-09-17 09:34:01,379 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-09-17 09:34:01,398 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 633
+2026-09-17 09:34:01,402 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-09-17 09:34:01,653 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 885
+2026-09-17 09:34:02,125 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-09-17 09:34:02,125 | INFO | __main__ | Processamento concluído
+2026-10-08 14:40:50,602 | INFO | __main__ | Iniciando processamento
+2026-10-08 14:40:50,602 | INFO | __main__ | Gerando CHECK
+2026-10-08 14:40:50,603 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-10-08 14:40:50,673 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,233
+2026-10-08 14:40:50,688 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-10-08 14:40:51,382 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-10-08 14:40:56,159 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-10-08 14:40:56,161 | INFO | __main__ | Gerando REPORT
+2026-10-08 14:40:56,161 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-10-08 14:40:56,247 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,233
+2026-10-08 14:40:56,262 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-10-08 14:40:56,614 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 885
+2026-10-08 14:41:02,567 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-10-08 14:41:02,568 | INFO | __main__ | Processamento concluído
+2026-10-08 14:42:59,672 | INFO | __main__ | Iniciando processamento
+2026-10-08 14:42:59,673 | INFO | __main__ | Gerando CHECK
+2026-10-08 14:42:59,673 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-10-08 14:42:59,744 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,233
+2026-10-08 14:42:59,758 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-10-08 14:43:00,442 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,699
+2026-10-08 14:43:07,412 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-10-08 14:43:07,414 | INFO | __main__ | Gerando REPORT
+2026-10-08 14:43:07,415 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-10-08 14:43:07,526 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 2,233
+2026-10-08 14:43:07,552 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-10-08 14:43:08,637 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 2,583
+2026-10-08 14:43:20,820 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-10-08 14:43:20,822 | INFO | __main__ | Processamento concluído
+2026-10-08 14:45:25,949 | INFO | __main__ | Iniciando processamento
+2026-10-08 14:45:25,950 | INFO | __main__ | Gerando CHECK
+2026-10-08 14:45:25,951 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-10-08 14:45:26,035 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 633
+2026-10-08 14:45:26,082 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-10-08 14:45:31,952 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,688
+2026-10-08 14:45:35,509 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-10-08 14:45:35,511 | INFO | __main__ | Gerando REPORT
+2026-10-08 14:45:35,511 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-10-08 14:45:35,562 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 633
+2026-10-08 14:45:35,581 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-10-08 14:45:36,070 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 885
+2026-10-08 14:45:37,041 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-10-08 14:45:37,042 | INFO | __main__ | Processamento concluído
+2026-10-08 15:01:56,085 | INFO | __main__ | Iniciando processamento
+2026-10-08 15:01:56,086 | INFO | __main__ | Gerando CHECK
+2026-10-08 15:01:56,086 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-10-08 15:01:56,146 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 633
+2026-10-08 15:01:56,188 | INFO | src.ingestion.fs10n_reader | Lendo arquivo FS10N: fs10n.xlsx
+2026-10-08 15:01:57,438 | INFO | src.ingestion.fs10n_reader | Arquivo FS10N carregado. Registros: 2,688
+2026-10-08 15:01:59,867 | INFO | __main__ | Check gerado: C:\dev\Ia_quarteto\data\output\Check_Faturamento.xlsx
+2026-10-08 15:01:59,868 | INFO | __main__ | Gerando REPORT
+2026-10-08 15:01:59,869 | INFO | src.ingestion.prefeitura_reader | Lendo arquivo prefeitura: prefeitura.csv
+2026-10-08 15:01:59,925 | INFO | src.ingestion.prefeitura_reader | Arquivo prefeitura carregado. Encoding: latin1. Registros: 633
+2026-10-08 15:01:59,939 | INFO | src.ingestion.zsd008_reader | Lendo arquivo ZSD008: zsd008.xlsx
+2026-10-08 15:02:00,427 | INFO | src.ingestion.zsd008_reader | Arquivo ZSD008 carregado. Registros: 885
+2026-10-08 15:02:01,610 | INFO | __main__ | Report gerado: C:\dev\Ia_quarteto\data\output\Report_Faturamento.xlsx
+2026-10-08 15:02:01,612 | INFO | __main__ | Processamento concluído
