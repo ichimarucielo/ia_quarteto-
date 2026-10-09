@@ -1,219 +1,100 @@
+"""CLI único para gerar ou inspecionar os relatórios de conciliação."""
+
 import argparse
+import logging
 from pathlib import Path
 
-from src.config.settings import settings
+import pandas as pd
 
-from src.ingestion.prefeitura_reader import (
-    PrefeituraReader,
-)
+from src.check import build_check
+from src.export import export_workbook
+from src.ingestion import read_fs10n, read_prefeitura, read_zsd008
+from src.normalization import normalize_fs10n, normalize_prefeitura
+from src.report import build_report
 
-from src.ingestion.fs10n_reader import (
-    FS10NReader,
-)
-
-from src.ingestion.zsd008_reader import (
-    ZSD008Reader,
-)
-
-from src.services.data_normalization_service import (
-    DataNormalizationService,
-)
-
-from src.services.check_workbook_service import (
-    CheckWorkbookService,
-)
-
-from src.services.report_workbook_service import (
-    ReportWorkbookService,
-)
-
-from src.reports.report_service import (
-    ReportService,
-)
-
-from src.exporters.check_excel_exporter import (
-    CheckExcelExporter,
-)
-
-from src.exporters.report_excel_exporter import (
-    ReportExcelExporter,
-)
-
-from src.utils.logger import (
-    get_logger,
-)
+PROJECT_ROOT = Path(__file__).resolve().parent
+logger = logging.getLogger(__name__)
 
 
-logger = get_logger(__name__)
+def build_workbooks(
+    prefeitura_file: Path, fs10n_file: Path, zsd008_file: Path
+) -> dict[str, dict[str, pd.DataFrame]]:
+    prefeitura = normalize_prefeitura(read_prefeitura(prefeitura_file))
+    fs10n = normalize_fs10n(read_fs10n(fs10n_file))
+    billing = read_zsd008(zsd008_file)
+    return {
+        "Check_Faturamento.xlsx": build_check(prefeitura, fs10n),
+        "Report_Faturamento.xlsx": build_report(prefeitura, billing),
+    }
 
 
-def run_check(
-    prefeitura_file: Path,
-    fs10n_file: Path,
-) -> None:
+def print_analysis(workbooks: dict[str, dict[str, pd.DataFrame]]) -> None:
+    """Diagnóstico das mesmas abas, sem exportar ou aplicar regras adicionais."""
+    for filename, sheets in workbooks.items():
+        print(f"\n{filename}")
+        print(sheets["SAP x Prefeitura"].to_string(index=False))
+        print("\nLinhas por aba:")
+        for name, dataframe in sheets.items():
+            print(f"  {name}: {len(dataframe)}")
+    unmatched = workbooks["Report_Faturamento.xlsx"]["Nao_Conciliadas"]
+    print("\nAusências por origem:")
+    print(unmatched.groupby("Tipo Exceção", sort=False).agg(
+        NFs=("Tipo Exceção", "size"), Diferenca=("Diferença", "sum")
+    ).to_string())
+    print("\n20 maiores ausências por valor absoluto:")
+    top = unmatched.loc[
+        unmatched["Diferença"].abs().sort_values(ascending=False).head(20).index
+    ]
+    print(top.to_string(index=False))
+    billing = workbooks["Report_Faturamento.xlsx"]["Notas Emitidas"]
+    for column in ("Razão Social", "Descrição", "Período", "Fatura Billing"):
+        print(f"\nBilling por {column} (até 20 grupos):")
+        print(billing.groupby(column)["Valor Bruto"].sum()
+              .sort_values(ascending=False).head(20).to_string())
 
-    logger.info(
-        "Gerando CHECK"
-    )
 
-    prefeitura_df = (
-        PrefeituraReader(
-            prefeitura_file
-        ).read()
-    )
+def get_arguments(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Conciliação fiscal Prefeitura/SAP/Billing")
+    for source in ("prefeitura", "fs10n", "zsd008"):
+        parser.add_argument(f"--{source}", type=Path, required=True)
+    parser.add_argument("--output-dir", type=Path, default=PROJECT_ROOT / "data/output")
+    parser.add_argument("--analisar", action="store_true",
+                        help="Mostra resumos e ausências sem gerar arquivos.")
+    args = parser.parse_args(argv)
+    for source in ("prefeitura", "fs10n", "zsd008"):
+        path = getattr(args, source)
+        if not path.is_file():
+            parser.error(f"Arquivo de {source} não encontrado: {path}")
+    return args
 
-    prefeitura_df = (
-        DataNormalizationService
-        .normalize_prefeitura(
-            prefeitura_df
-        )
-    )
 
-    fs10n_df = (
-        FS10NReader(
-            fs10n_file
-        ).read()
-    )
-
-    fs10n_df = (
-        DataNormalizationService
-        .normalize_fs10n(
-            fs10n_df
-        )
-    )
-
-    workbook = (
-        CheckWorkbookService.build(
-            prefeitura_df=prefeitura_df,
-            fs10n_df=fs10n_df,
-        )
-    )
-
-    output_path = (
-        CheckExcelExporter.export(
-            workbook=workbook,
-            output_dir=settings.OUTPUT_PATH,
-        )
-    )
-
-    logger.info(
-        f"Check gerado: {output_path}"
+def configure_logging(analyze: bool) -> None:
+    handlers = [logging.StreamHandler()]
+    if not analyze:
+        log_dir = PROJECT_ROOT / "logs"
+        log_dir.mkdir(parents=True, exist_ok=True)
+        handlers.append(logging.FileHandler(log_dir / "reconciliation.log", encoding="utf-8"))
+    logging.basicConfig(
+        level=logging.INFO, handlers=handlers, force=True,
+        format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
     )
 
 
-def run_report(
-    prefeitura_file: Path,
-    zsd008_file: Path,
-) -> None:
-
-    logger.info(
-        "Gerando REPORT"
-    )
-
-    prefeitura_df = (
-        PrefeituraReader(
-            prefeitura_file
-        ).read()
-    )
-
-    prefeitura_df = (
-        DataNormalizationService
-        .normalize_prefeitura(
-            prefeitura_df
-        )
-    )
-
-    zsd008_df = (
-        ZSD008Reader(
-            zsd008_file
-        ).read()
-    )
-
-    report_df = (
-        ReportService.build(
-            zsd008_df=zsd008_df,
-        )
-    )
-
-    workbook = (
-        ReportWorkbookService.build(
-            report_df=report_df,
-            prefeitura_df=prefeitura_df,
-        )
-    )
-
-    output_path = (
-        ReportExcelExporter.export(
-            workbook=workbook,
-            output_dir=settings.OUTPUT_PATH,
-        )
-    )
-
-    logger.info(
-        f"Report gerado: {output_path}"
-    )
-
-
-def get_arguments():
-
-    parser = argparse.ArgumentParser()
-
-    parser.add_argument(
-        "--prefeitura",
-        required=True
-    )
-
-    parser.add_argument(
-        "--fs10n",
-        required=True
-    )
-
-    parser.add_argument(
-        "--zsd008",
-        required=True
-    )
-
-    return parser.parse_args()
-
-
-def main() -> None:
-
-    args = get_arguments()
-
-    prefeitura_file = Path(
-        args.prefeitura
-    )
-
-    fs10n_file = Path(
-        args.fs10n
-    )
-
-    zsd008_file = Path(
-        args.zsd008
-    )
-
-    logger.info(
-        "Iniciando processamento"
-    )
-
-    settings.OUTPUT_PATH.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
-    run_check(
-        prefeitura_file=prefeitura_file,
-        fs10n_file=fs10n_file,
-    )
-
-    run_report(
-        prefeitura_file=prefeitura_file,
-        zsd008_file=zsd008_file,
-    )
-
-    logger.info(
-        "Processamento concluído"
-    )
+def main(argv: list[str] | None = None) -> list[Path]:
+    args = get_arguments(argv)
+    configure_logging(args.analisar)
+    logger.info("Iniciando processamento")
+    workbooks = build_workbooks(args.prefeitura, args.fs10n, args.zsd008)
+    if args.analisar:
+        print_analysis(workbooks)
+        return []
+    outputs = []
+    for filename, sheets in workbooks.items():
+        output = export_workbook(sheets, args.output_dir / filename)
+        outputs.append(output)
+        logger.info("Arquivo gerado: %s", output)
+    logger.info("Processamento concluído")
+    return outputs
 
 
 if __name__ == "__main__":
